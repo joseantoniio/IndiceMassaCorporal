@@ -19,6 +19,7 @@ public class IndiceMasaCorporal {
 		if (errorPeso || errorAltura) {
 			Log.e("IMC_ERROR_EXCEPTION", "Error Contructor IndiceMasaCorporal");
 			throw new IndiceMasaCorporalException(errorPeso, errorAltura);
+			//Probando github
 		} else {
 			this.peso = peso;
 			this.altura = altura;
